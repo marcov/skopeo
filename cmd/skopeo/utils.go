@@ -2,12 +2,12 @@ package main
 
 import (
 	"context"
-	"errors"
 	"io"
 	"strings"
 
 	"github.com/containers/image/transports/alltransports"
 	"github.com/containers/image/types"
+	"github.com/pkg/errors"
 	"github.com/urfave/cli"
 )
 
